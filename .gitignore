@@ -1,0 +1,19 @@
+# Compiled source 
+*.exe
+.vscode
+*.bin
+PS/solving/
+
+# Build directories
+build/
+
+# Object files
+*.o
+
+# macOS debug symbol bundles
+*.dSYM/
+
+# Common local debug binaries
+debug
+outDebug
+Hello_World
