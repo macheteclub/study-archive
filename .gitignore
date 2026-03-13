@@ -12,6 +12,7 @@ build/
 
 # macOS debug symbol bundles
 *.dSYM/
+.DS_Store
 
 # Common local debug binaries
 debug
