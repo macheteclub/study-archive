@@ -3,6 +3,7 @@
 .vscode
 *.bin
 PS/solving/
+Algorithm.code-workspace
 
 # Build directories
 build/
