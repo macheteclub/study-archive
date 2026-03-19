@@ -1,5 +1,3 @@
-
-// 8 6 4 2 0
 #include <iostream>
 
 using namespace std;
