@@ -9,6 +9,4 @@ int main() {
     while (getline(cin,str)) {
         cout << str << "\n";
     }
-    
-
 }
