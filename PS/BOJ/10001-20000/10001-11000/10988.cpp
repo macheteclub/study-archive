@@ -10,8 +10,6 @@ int main() {
     int f = 0;
     int l = str.size() - 1;
 
-    //cout << l;
-
     for (int i = 0; i < str.size(); i++) {
         if (str[f] == str[l]) {
             f++;

@@ -13,6 +13,4 @@ int main() {
 
         cout << str << "DORO" << " ";
     }
-
-
 }
