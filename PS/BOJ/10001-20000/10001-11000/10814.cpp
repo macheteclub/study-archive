@@ -31,7 +31,7 @@ int main() {
     }
 
     // 적절한 함수 사용하기
-    sort(v.begin(), v.end(), compare);
+    stable_sort(v.begin(), v.end(), compare);
 
     for(const auto& it: v) {
         cout << it.age << " " << it.name << "\n";
