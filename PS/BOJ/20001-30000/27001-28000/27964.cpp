@@ -17,7 +17,7 @@ int main() {
         if (pos == string::npos) continue;
         if (pos+6 != str.size()) continue;
 
-    mp.insert({str, 1});
+        mp.insert({str, 1});
     }
     if (mp.size() >= 4) {
         cout << "yummy";

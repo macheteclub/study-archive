@@ -13,6 +13,5 @@ int main() {
         cin >> str;
 
         cout << str[0] << str.back() << "\n";
-        
     }
 }
