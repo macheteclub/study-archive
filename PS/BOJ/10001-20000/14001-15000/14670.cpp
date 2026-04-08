@@ -38,7 +38,7 @@ int main() {
             cout << "YOU DIED\n";
         } else {
             for (int j = 0; j < v.size(); j++) cout << v[j] << " ";
-            //cout << "\n";
+            cout << "\n";
         }
 
     }
