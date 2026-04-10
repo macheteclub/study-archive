@@ -15,7 +15,7 @@ int main() {
         cin >> p;
 
         mp.insert({p, 1});
-    } // lms, pow, skeep, tony, wider, mag, jthis
+    }
 
     if (m == 'Y') cout << mp.size();
     else if (m == 'F') cout << mp.size() / 2;
