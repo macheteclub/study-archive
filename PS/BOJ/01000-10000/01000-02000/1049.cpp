@@ -18,10 +18,10 @@ int main() {
         minP = min(minP, p); // 20
         minS = min(minS, s); // 4
     }
-    int one = n*minS; // 
-    int two = (n/6)*minP + (n%6)*minS;
-    int three = (n/6 + 1)*minP;
+    int one = n*minS; // 10*4 = 40
+    int two = (n/6)*minP + (n%6)*minS; // 1*20 + 4*4 = 36
+    int three = (n/6 + 1)*minP; // 2*20 , 3*12
 
-    //cout << min(one, min(two, three));
+    cout << min(one, min(two, three));
 
 }
