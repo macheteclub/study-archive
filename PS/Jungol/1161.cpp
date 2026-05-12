@@ -15,5 +15,4 @@ void hanoi(int n, int from, int mid, int to) {
 int main() {
     cin >> n;
     hanoi(n, 1, 2, 3);
-
 }
