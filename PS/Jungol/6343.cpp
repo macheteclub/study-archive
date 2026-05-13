@@ -10,7 +10,7 @@ int main() {
 
     int e = 0, w = 0, s = 0, n = 0;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < N; i++) {
         if (str[i] == 'E') e++;
         else if (str[i] == 'W') w++;
         else if (str[i] == 'S') s++;
