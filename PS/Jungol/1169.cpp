@@ -15,6 +15,7 @@ void rollDice(int index) {
         return;
     }
 
+    // Backtracking ...
     for (int i = 1; i <= 6; i++) {
         // type 2
         if (t == 2 && index > 0 && arr[index - 1] > i) {
